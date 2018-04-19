@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoundCloud</title>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <script src="lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.2.1.js"></script>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <section>
+
+        <input type="text" id="search" title="Search" placeholder="Search..."/>
+        <button type="submit" id="search-btn">Go!</button>
+
+    <div>
+        <ul id="sortable"></ul>
+        </div>
+
+        <div class="image-container">
+
+            <div id="player"></div>
+        </div>
+
+
+        <div class="recent-searches-container"></div>
+
+
+    </section>
+    <div>
+    <button id="next">Next</button>
+    <button class="ui-icon ui-button-icon-space">List</button>
+    <button class="ui-icon ui-button-icon-space">Tile</button>
+    </div>
+
+
+
+</body>
+</html>
